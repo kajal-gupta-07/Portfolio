@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <div class="logo">Portfolio</div>
+    <ul class="navlist">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+  <section class="portfolio-container" id="home">
+    <div class="left-container">
+      <div class="intro-text">
+        <h3>Hello, I'm</h3>
+        <h1>Kajal <span>Gupta</span></h1>
+        <h2>Creative <span>Web Developer</span></h2>
+        <p>
+          Passionate about crafting modern websites and web apps.<br>
+          Pursuing BCA from <strong>Suresh Gyan Vihar University</strong>.
+        </p>
+        <div class="btn-container">
+          <button class="btn-primary">Hire Me</button>
+          <button class="btn-secondary">View Projects</button>
+        </div>
+        <div class="social-icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </div>
+    <div class="right-container">
+      <div class="profile-card">
+        <div class="outer-circle"></div>
+        <div class="inner-circle">
+          <img src="assests/kaju.jpg"alt="Profile">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      Hello! I'm <strong>Kajal Gupta</strong>, a passionate and creative web developer.  
+      I enjoy creating user-friendly, responsive, and visually appealing websites.  
+      Currently pursuing <strong>BCA</strong> at <em>Suresh Gyan Vihar University</em>.
+    </p>
+  </section>
+  <section class="section" id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <h3>Bachelor of Computer Applications (BCA)</h3>
+        <p>Suresh Gyan Vihar University, Jaipur</p>
+        <span>2024 - Present</span>
+      </div>
+      <div class="edu-card">
+        <h3>12th (Science)</h3>
+        <p>CBSE Board</p>
+        <span>2022 - 2024</span>
+      </div>
+      <div class="edu-card">
+        <h3>10th</h3>
+        <p>CBSE Board</p>
+        <span>2020 - 2022</span>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="work-grid">
+      <div class="work-card">HTML</div>
+      <div class="work-card">CSS</div>
+      <div class="work-card">Javascript</div>
+      <div class="work-card">C / C++ Programming</div>
+      <div class="work-card">Java (Basic)</div>
+      <div class="work-card">Python</div>
+    </div>
+  </section>
+  <section class="section" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Kajal gupta" required>
+      <input type="email" placeholder="Kajal45@gmail.com" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+  </section>
+</body>
+</html>
